@@ -1,5 +1,5 @@
 button {
-  background-color: grey;
+  background-color: #F1E4E4;
 }
 
 body {
@@ -7,6 +7,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(.git/images/flower.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+
 }
 
 h1 {
@@ -14,6 +19,7 @@ h1 {
   font-size: 40px;
   letter-spacing: 2px;
   margin-bottom: 50px;
+  color: #005542
 }
 
 .inputsection {
